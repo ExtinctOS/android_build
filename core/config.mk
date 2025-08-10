@@ -472,7 +472,7 @@ endif
 FIND_LEAVES_EXCLUDES := $(addprefix --prune=, $(SCAN_EXCLUDE_DIRS) .repo .git)
 
 ifneq ($(EXTINCT_BUILD),)
-include vendor/extinct/config/BoardConfigextinct.mk
+include vendor/extinct/config/BoardConfigExtinct.mk
 endif
 
 # The build system exposes several variables for where to find the kernel
